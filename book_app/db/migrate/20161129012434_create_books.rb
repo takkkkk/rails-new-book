@@ -8,7 +8,7 @@ class CreateBooks < ActiveRecord::Migration[5.0]
       t.date :published
       t.boolean :cd
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end
